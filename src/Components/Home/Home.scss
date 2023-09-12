@@ -1,0 +1,97 @@
+:root{
+    --primaryColor: #3ab3a7;
+    --primaryHover: #0c988a;
+    --secondaryColor: #059789;
+    --secHoverColor: #253b53;
+    --greyColor: #f7f7f7;
+  }
+
+.home {
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,1,0.42), rgba(0,0,1,0.549)), url('./img/Island.jpg');
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    row-gap: 3rem;
+
+    .spanText {
+      color: white;
+      font-weight: 500;
+    }
+
+    .homeTitle {
+      color: white;
+      padding: 2rem 0;
+      font-size: 40px;
+
+      strong {
+        font-weight: 800;
+      }
+    }
+
+    .btn {
+      border: 2px solid white;
+      color: white;
+      font-size: 13px;
+      width: 250px;
+      &:hover {
+        background: white;
+        color: black;
+        border: 2px solid white;
+      }
+    }
+}
+
+// MEDIA QUERIES
+@media screen and (min-width:690px) {
+  .home {
+    .homeText{
+    }
+    .spanText {
+      font-weight: 600;
+      font-size: 20px;
+    }
+
+    .homeTitle {
+      color: white;
+      padding: 2rem 0;
+      font-size: 45px;
+    }
+  }
+}
+
+@media screen and (min-width:840px) {
+  .home {
+    .homeText {
+    }
+  }
+}
+
+@media screen and (min-width:1240px) {
+  .home {
+    .homeText {
+
+      .spanText {
+        font-size: 25px;
+      }
+
+      .homeTitle {
+        font-size: 60px;
+      }
+      
+      .button {
+        text-align: center;
+        .btn {
+        font-size: 22px;
+        align-items: center;
+      }
+      }
+    }
+  }
+}

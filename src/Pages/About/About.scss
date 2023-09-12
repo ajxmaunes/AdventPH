@@ -1,0 +1,127 @@
+:root{
+    --primaryColor: #3ab3a7;
+    --primaryHover: #0c988a;
+    --secondaryColor: #059789;
+    --secHoverColor: #253b53;
+    --greyColor: #f7f7f7;
+  }
+
+  .about {
+    margin-bottom: 5rem;
+    .secContainer {
+      padding-top: 5rem;
+      .aboutContainer {
+        display: grid;
+
+        .singleAbout {
+          width: 100%;
+          position: relative;
+          padding-bottom: 1rem;
+          overflow: hidden;
+          transition: .4s ease;
+          border-radius: 10px;
+
+          &:hover {
+            background: var(--greyColor);
+          }
+
+          .imgDiv {
+            height: 200px;
+            width: 100%;
+            overflow: hidden;
+
+            img {
+              height: 100%;
+              object-fit: cover;
+              transition: .3s ease-in-out;
+            }
+
+            &:hover {
+              img {
+                transform: scale(1.1);
+              }
+            }
+          }
+
+          .aboutInfo {
+            padding: 0 1rem;
+            }
+
+            p{
+              padding-bottom: 1rem;
+            }
+          }
+        }
+      }
+    }
+
+  // MEDIA QUERIES
+  @media screen and (min-width:580px) {
+    .about {
+      .secContainer {
+        .aboutContainer {
+          .singleAbout {
+            grid-template-columns: repeat(2,1fr);
+            padding-bottom: 0rem;
+
+            .imgDiv {
+              height: 100%;
+              width: 100%;
+            }
+
+            .aboutInfo {
+              padding: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width:1054px) {
+    .about {
+      .secContainer {
+        .aboutContainer {
+          .singleAbout {
+
+            .aboutInfo {
+              p {
+                font-size: 14px;
+                line-height: 1.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width:1496px) {
+    .tours {
+      .secContainer {
+        .tourContainer {
+          .singleAbout {
+
+            .tourInfo {
+              .aboutTitle {
+                font-size: 20px;
+              }
+
+              p {
+                font-size: 15px;
+              }
+
+              .btn {
+                font-size: 15px;
+                width: max-content;
+              }
+            }
+
+            .price {
+              font-size: 25px;
+            }
+          }
+        }
+      }
+    }
+  }

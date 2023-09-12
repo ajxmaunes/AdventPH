@@ -1,0 +1,84 @@
+:root {
+  --primaryColor: #3ab3a7;
+  --primaryHover: #0c988a;
+  --secondaryColor: #059789;
+  --secHoverColor: #253b53;
+  --greyColor: #f7f7f7;
+}
+
+.about {
+  margin-bottom: 5rem;
+}
+.about .secContainer {
+  padding-top: 5rem;
+}
+.about .secContainer .aboutContainer {
+  display: grid;
+}
+.about .secContainer .aboutContainer .singleAbout {
+  width: 100%;
+  position: relative;
+  padding-bottom: 1rem;
+  overflow: hidden;
+  transition: 0.4s ease;
+  border-radius: 10px;
+}
+.about .secContainer .aboutContainer .singleAbout:hover {
+  background: var(--greyColor);
+}
+.about .secContainer .aboutContainer .singleAbout .imgDiv {
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+.about .secContainer .aboutContainer .singleAbout .imgDiv img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.3s ease-in-out;
+}
+.about .secContainer .aboutContainer .singleAbout .imgDiv:hover img {
+  transform: scale(1.1);
+}
+.about .secContainer .aboutContainer .singleAbout .aboutInfo {
+  padding: 0 1rem;
+}
+.about .secContainer .aboutContainer .singleAbout p {
+  padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 580px) {
+  .about .secContainer .aboutContainer .singleAbout {
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 0rem;
+  }
+  .about .secContainer .aboutContainer .singleAbout .imgDiv {
+    height: 100%;
+    width: 100%;
+  }
+  .about .secContainer .aboutContainer .singleAbout .aboutInfo {
+    padding: 1rem;
+  }
+}
+@media screen and (min-width: 1054px) {
+  .about .secContainer .aboutContainer .singleAbout .aboutInfo p {
+    font-size: 14px;
+    line-height: 1.5rem;
+  }
+}
+@media screen and (min-width: 1496px) {
+  .tours .secContainer .tourContainer .singleAbout .tourInfo .aboutTitle {
+    font-size: 20px;
+  }
+  .tours .secContainer .tourContainer .singleAbout .tourInfo p {
+    font-size: 15px;
+  }
+  .tours .secContainer .tourContainer .singleAbout .tourInfo .btn {
+    font-size: 15px;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .tours .secContainer .tourContainer .singleAbout .price {
+    font-size: 25px;
+  }
+}/*# sourceMappingURL=About.css.map */

@@ -1,0 +1,73 @@
+:root {
+  --primaryColor: #3ab3a7;
+  --primaryHover: #0c988a;
+  --secondaryColor: #059789;
+  --secHoverColor: #253b53;
+  --greyColor: #f7f7f7;
+}
+
+.home {
+  height: 90vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 1, 0.42), rgba(0, 0, 1, 0.549)), url("./img/Island.jpg");
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  row-gap: 3rem;
+}
+.home .spanText {
+  color: white;
+  font-weight: 500;
+}
+.home .homeTitle {
+  color: white;
+  padding: 2rem 0;
+  font-size: 40px;
+}
+.home .homeTitle strong {
+  font-weight: 800;
+}
+.home .btn {
+  border: 2px solid white;
+  color: white;
+  font-size: 13px;
+  width: 250px;
+}
+.home .btn:hover {
+  background: white;
+  color: black;
+  border: 2px solid white;
+}
+
+@media screen and (min-width: 690px) {
+  .home .spanText {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .home .homeTitle {
+    color: white;
+    padding: 2rem 0;
+    font-size: 45px;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .home .homeText .spanText {
+    font-size: 25px;
+  }
+  .home .homeText .homeTitle {
+    font-size: 60px;
+  }
+  .home .homeText .button {
+    text-align: center;
+  }
+  .home .homeText .button .btn {
+    font-size: 22px;
+    align-items: center;
+  }
+}/*# sourceMappingURL=Home.css.map */
