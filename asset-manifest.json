@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AdventPH/static/css/main.5f9f0692.css",
-    "main.js": "/AdventPH/static/js/main.fe4fe3d4.js",
+    "main.js": "/AdventPH/static/js/main.23db65f8.js",
     "static/media/video.mp4": "/AdventPH/static/media/video.0da4c473f072b54426e5.mp4",
     "static/media/Image6.jpg": "/AdventPH/static/media/Image6.0ae533620c0570ddaf80.jpg",
     "static/media/user (4).jpg": "/AdventPH/static/media/user (4).1f085304456346903d9b.jpg",
@@ -17,10 +17,10 @@
     "static/media/user (3).jpg": "/AdventPH/static/media/user (3).93a200031260e4262ff9.jpg",
     "index.html": "/AdventPH/index.html",
     "main.5f9f0692.css.map": "/AdventPH/static/css/main.5f9f0692.css.map",
-    "main.fe4fe3d4.js.map": "/AdventPH/static/js/main.fe4fe3d4.js.map"
+    "main.23db65f8.js.map": "/AdventPH/static/js/main.23db65f8.js.map"
   },
   "entrypoints": [
     "static/css/main.5f9f0692.css",
-    "static/js/main.fe4fe3d4.js"
+    "static/js/main.23db65f8.js"
   ]
 }
