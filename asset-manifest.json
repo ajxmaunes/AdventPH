@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/AdventPH/static/css/main.5f9f0692.css",
-    "main.js": "/AdventPH/static/js/main.23db65f8.js",
+    "main.css": "/AdventPH/static/css/main.253d59c5.css",
+    "main.js": "/AdventPH/static/js/main.2369a6d6.js",
     "static/media/video.mp4": "/AdventPH/static/media/video.0da4c473f072b54426e5.mp4",
     "static/media/Image6.jpg": "/AdventPH/static/media/Image6.0ae533620c0570ddaf80.jpg",
     "static/media/user (4).jpg": "/AdventPH/static/media/user (4).1f085304456346903d9b.jpg",
     "static/media/Image2.jpg": "/AdventPH/static/media/Image2.d7f0d4d04b52d05e23b6.jpg",
     "static/media/Island.jpg": "/AdventPH/static/media/Island.cbe26a9519ba0588795b.jpg",
+    "static/media/Image8.jpg": "/AdventPH/static/media/Image8.19755ecbc2766ea68dbb.jpg",
     "static/media/Image1.jpg": "/AdventPH/static/media/Image1.ae9dc4c2d64732d5cf37.jpg",
     "static/media/Image3.jpg": "/AdventPH/static/media/Image3.8d1266dfadbe66156f0f.jpg",
     "static/media/Image7.jpg": "/AdventPH/static/media/Image7.5183d77e502630493654.jpg",
@@ -16,11 +17,11 @@
     "static/media/Image5.jpg": "/AdventPH/static/media/Image5.2b7a8d673152fb9e7505.jpg",
     "static/media/user (3).jpg": "/AdventPH/static/media/user (3).93a200031260e4262ff9.jpg",
     "index.html": "/AdventPH/index.html",
-    "main.5f9f0692.css.map": "/AdventPH/static/css/main.5f9f0692.css.map",
-    "main.23db65f8.js.map": "/AdventPH/static/js/main.23db65f8.js.map"
+    "main.253d59c5.css.map": "/AdventPH/static/css/main.253d59c5.css.map",
+    "main.2369a6d6.js.map": "/AdventPH/static/js/main.2369a6d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f9f0692.css",
-    "static/js/main.23db65f8.js"
+    "static/css/main.253d59c5.css",
+    "static/js/main.2369a6d6.js"
   ]
 }
