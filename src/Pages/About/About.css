@@ -22,6 +22,7 @@
   overflow: hidden;
   transition: 0.4s ease;
   border-radius: 10px;
+  margin-bottom: 1rem;
 }
 .about .secContainer .aboutContainer .singleAbout:hover {
   background: var(--greyColor);

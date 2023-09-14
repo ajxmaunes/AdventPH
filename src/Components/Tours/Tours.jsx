@@ -57,7 +57,7 @@ const Tours = () => {
             </div>
 
             <span className='price'>
-            ₱990
+            ₱ 990
             </span>
           </div>
 
@@ -90,7 +90,7 @@ const Tours = () => {
             </div>
 
             <span className='price'>
-            ₱790
+            ₱ 790
             </span>
           </div>
 
@@ -123,7 +123,7 @@ const Tours = () => {
               </div>
               
               <span className='price'>
-              ₱1090
+              ₱ 1090
               </span>
           </div>
 

@@ -1,0 +1,44 @@
+
+
+export const GalleryData = [
+    {
+        id:1,
+        title:"Historical",
+        image:require("./images/Image1.jpg")
+    },
+    {
+        id:2,
+        title:"Beach",
+        image:require("./images/Image2.jpg")
+    },
+    {
+        id:3,
+        title:"Mountain",
+        image:require("./images/Image3.jpg")
+    },
+    {
+        id:4,
+        title:"Mountain",
+        image:require("./images/Image4.jpg")
+    },
+    {
+        id:5,
+        title:"Mountain",
+        image:require("./images/Image5.jpg")
+    },
+    {
+        id:6,
+        title:"City",
+        image:require("./images/Image6.jpg")
+    },
+    {
+        id:7,
+        title:"Historical",
+        image:require("./images/Image7.jpg")
+    },
+    {
+        id:8,
+        title:"Beach",
+        image:require("./images/Image8.jpg")
+    },
+]

@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import About from './Pages/About/About';
+import OurTours from './Pages/OurTours/OurTours';
+import Gallery from './Pages/Gallery/Gallery';
 
 import {
   createHashRouter,
@@ -17,6 +19,14 @@ const router = createHashRouter([
   {
     path: "About",
     element: <About />,
+  },
+  {
+    path: "OurTours",
+    element: <OurTours />,
+  },
+  {
+    path: "Gallery",
+    element: <Gallery />,
   },
 ]);
 

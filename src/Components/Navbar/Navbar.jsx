@@ -34,13 +34,13 @@ const Navbar = () => {
         <div className={active}>
           <ul className="menuLists">
             <li className="navItem">
-            <Link to='/' onClick={removeNavbar} className='menuLink'>Home</Link>
+              <Link to='/' onClick={removeNavbar} className='menuLink'>Home</Link>
             </li>
             <li className="navItem">
               <Link to='/About' relative="path" onClick={removeNavbar} className='menuLink'>About</Link>
             </li>
             <li className="navItem">
-              <a href="#Tours" onClick={removeNavbar} className='menuLink'>Our Tours</a>
+              <Link to='/OurTours' onClick={removeNavbar} className='menuLink'>Our Tours</Link>
             </li>
             <li className="navItem">
               <a href="#Gallery" onClick={removeNavbar} className='menuLink'>Gallery</a>
