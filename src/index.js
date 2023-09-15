@@ -5,6 +5,7 @@ import App from './App';
 import About from './Pages/About/About';
 import OurTours from './Pages/OurTours/OurTours';
 import Gallery from './Pages/Gallery/Gallery';
+import ContactUs from './Pages/ContactUs/ContactUs';
 
 import {
   createHashRouter,
@@ -27,6 +28,10 @@ const router = createHashRouter([
   {
     path: "Gallery",
     element: <Gallery />,
+  },
+  {
+    path: "ContactUs",
+    element: <ContactUs />,
   },
 ]);
 

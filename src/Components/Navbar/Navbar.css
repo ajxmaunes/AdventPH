@@ -55,7 +55,7 @@
     font-weight: 500;
   }
   .header .menuDiv .menuLists .navItem .menuLink:hover {
-    color: var(--secHoverColor);
+    color: #1450A3;
   }
   .header .menuDiv .closeNavbar {
     color: black;

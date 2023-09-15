@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import './Footer.css'
+import { Link } from "react-router-dom";
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -29,15 +30,15 @@ const Footer = () => {
             <div className="contactDiv">
               <span className='flex'>
                 <HiPhone className='icon' />
-                <span>+244 334 556 67</span>
+                <span>(123) 456-7869</span>
               </span>
               <span className='flex'>
                 <MdEmail className='icon' />
-                <span><a href="mailto: aljunemaunes0@gmail.com">blahblah@gmail.com</a></span>
+                <span><a href="mailto: aljunemaunes0@gmail.com" className='email'>adventph@gmail.com</a></span>
               </span>
               <span className='flex'>
                 <FaLocationArrow className='icon' />
-                <span>+244 334 556 67</span>
+                <span>(123) 456-7869</span>
               </span>
             </div>
           </div>
@@ -71,11 +72,11 @@ const Footer = () => {
             </div>
             <div className="footerLinks">
               <ul>
-                <li>About Us</li>
-                <li>Our Team</li>
-                <li>Gallery</li>
-                <li>Blog</li>
-                <li>Careers</li>
+                <li><Link to='/' className='link'>Home</Link></li>
+                <li><Link to='/About' className='link'>About Us</Link></li>
+                <li><Link to='/OurTours' className='link'>Our Tours</Link></li>
+                <li><Link to='/Gallery' className='link'>Gallery</Link></li>
+                <li><Link to='/ContactUs' className='link'>Contact Us</Link></li>  
               </ul>
             </div>
           </div>

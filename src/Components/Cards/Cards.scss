@@ -63,6 +63,11 @@
       padding-top: 1.5rem;
       margin: auto;
       gap: .5rem;
+      cursor: pointer;
+
+      .other {
+        color: black;
+      }
 
       &:hover {
         font-weight: 600;

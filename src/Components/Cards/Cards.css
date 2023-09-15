@@ -57,6 +57,10 @@
   padding-top: 1.5rem;
   margin: auto;
   gap: 0.5rem;
+  cursor: pointer;
+}
+.cards .spanText .other {
+  color: black;
 }
 .cards .spanText:hover {
   font-weight: 600;

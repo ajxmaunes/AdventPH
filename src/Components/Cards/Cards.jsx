@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import './Cards.css'
+import { Link } from "react-router-dom";
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -60,7 +61,7 @@ const Cards = () => {
       </div>
 
       <div className="spanText text">
-        Other Tours <AiOutlineSwapRight className='icon' />
+        <Link to='/OurTours' className='other'>Other Tours <AiOutlineSwapRight className='icon' /></Link>
       </div>
     </div>
   )

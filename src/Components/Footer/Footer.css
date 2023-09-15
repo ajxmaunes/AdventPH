@@ -38,6 +38,9 @@
   font-size: 15px;
   color: black;
 }
+.footer .secContainer .content .row .flex .email:hover {
+  color: #1450A3;
+}
 .footer .secContainer .content .row .flex span {
   font-size: 14px;
 }
@@ -59,8 +62,11 @@
   cursor: pointer;
   padding: 0.5rem 0;
 }
-.footer .secContainer .content .row .footerLinks ul li:hover {
+.footer .secContainer .content .row .footerLinks ul .link {
   color: black;
+}
+.footer .secContainer .content .row .footerLinks ul .link:hover {
+  color: #1450A3;
 }
 .footer .secContainer .bottomDiv {
   padding: 1rem;

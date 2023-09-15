@@ -28,7 +28,7 @@ const Navbar = () => {
     <div>
       <div className="header">
         <div className="logoDiv">
-          <h3 className='logo'>AdventPH</h3>
+          <Link to='/' className='logo'>AdventPH</Link>
         </div>
 
         <div className={active}>
@@ -43,17 +43,17 @@ const Navbar = () => {
               <Link to='/OurTours' onClick={removeNavbar} className='menuLink'>Our Tours</Link>
             </li>
             <li className="navItem">
-              <a href="#Gallery" onClick={removeNavbar} className='menuLink'>Gallery</a>
+              <Link to='/Gallery' onClick={removeNavbar} className='menuLink'>Gallery</Link>
             </li>
             <li className="navItem">
+              <Link to='/ContactUs' onClick={removeNavbar} className='menuLink'>Contact Us</Link>
+            </li>
+            {/* <li className="navItem">
               <a href="#Blog" onClick={removeNavbar} className='menuLink'>Blog</a>
-            </li>
-            <li className="navItem">
-              <a href="#Contact" onClick={removeNavbar} className='menuLink'>Contact Us</a>
-            </li>
-            <li className="navItem">
+            </li> */}
+            {/* <li className="navItem">
               <a href="#Pages" onClick={removeNavbar} className='menuLink'>Pages</a>
-            </li>
+            </li> */}
           </ul>
 
           <div onClick={removeNavbar} className="closeNavbar">
