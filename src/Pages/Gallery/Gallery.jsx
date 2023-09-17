@@ -25,6 +25,9 @@ function Gallery() {
     <Navbar />
     <div className="App">
       <div className="galleryWrapper">
+        <span className="secTitle">
+          Gallery
+        </span>
 
         <div className="filterItem">
           <ul>

@@ -58,7 +58,7 @@ const Footer = () => {
             </div>
             <div className="singleNews">
               <span className="text">
-                The grand reveal of the most iconic hotel in the world - Atlantis
+                The grand reveal of the most iconic hotel in the world.
               </span>
               <p>
                 Jan 20, 2023

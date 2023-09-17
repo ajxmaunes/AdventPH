@@ -6,8 +6,7 @@
 }
 
 .review {
-    background: var(--greyColor);
-
+    margin-top: 2rem;
     .reviewContainer {
         margin-top: 4rem;
         gap: 4rem;
@@ -46,8 +45,9 @@
             }
 
             .name {
-                color: var(--primaryColor);
+                color: #1450A3;
                 font-weight: 600;
+                font-size: 20px;
             }
         }
 

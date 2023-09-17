@@ -41,7 +41,7 @@ const Review = () => {
 
             <div data-aos='fade-up' data-aos-duration='3500' className="singleReview">
               <div className="imgDiv">
-                <img src={user2} alt="" />
+                <img src={user1} alt="" />
               </div>
 
               <p>
@@ -55,7 +55,7 @@ const Review = () => {
 
             <div data-aos='fade-up' data-aos-duration='4000' className="singleReview">
               <div className="imgDiv">
-                <img src={user3} alt="" />
+                <img src={user1} alt="" />
               </div>
 
               <p>
@@ -63,7 +63,7 @@ const Review = () => {
               </p>
 
               <div className="name">
-                Aljune P.
+                Mark P.
               </div>
             </div>
 

@@ -14,7 +14,7 @@ const About = () => {
       <div className='about container section'>
       <div className="secContainer">
         <span className="secTitle">
-          ABOUT
+          About
         </span>
 
         <div className="aboutContainer">

@@ -20,7 +20,7 @@ function Contact() {
                 <IconPhone /> &nbsp; (123) 456-7869
               </a>
               <a href="/">
-                <IconMail /> &nbsp; adventph@carmail.com
+                <IconMail /> &nbsp; adventph@gmail.com
               </a>
               <a href="/">
                 <IconLocation />
