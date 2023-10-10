@@ -1,8 +1,9 @@
 import { GalleryData } from "./GalleryData";
 import { useEffect, useState } from "react";
 import './Gallery.css'
-import Navbar from "../../Components/Navbar/Navbar";
-import Footer from "../../Components/Footer/Footer";
+
+// Imported layout
+import MainLayout from "../Layout/Layout";
 
 function Gallery() {
 
@@ -20,9 +21,7 @@ function Gallery() {
   }
 
   return (
-
-    <div>
-    <Navbar />
+    <MainLayout>
     <div className="App">
       <div className="galleryWrapper">
         <span className="secTitle">
@@ -44,8 +43,7 @@ function Gallery() {
         </div>
       </div>
     </div>
-    <Footer />
-    </div>
+    </MainLayout>
   );
 }
 

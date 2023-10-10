@@ -1,13 +1,13 @@
 import { IconMail, IconMailOpened, IconPhone } from "@tabler/icons-react";
-import Footer from "../../Components/Footer/Footer";
-import Navbar from "../../Components/Navbar/Navbar";
 import { IconLocation } from "@tabler/icons-react";
 import './ContactUs.css'
 
+// Imprted layout
+import MainLayout from "../Layout/Layout";
+
 function Contact() {
   return (
-    <>
-        <Navbar />
+    <MainLayout>
       <section className="contact-page">
         <div className="container">
           <div className="contact-div">
@@ -53,8 +53,7 @@ function Contact() {
           </div>
         </div>
       </section>
-      <Footer />
-    </>
+      </MainLayout>
   );
 }
 

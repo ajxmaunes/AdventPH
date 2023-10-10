@@ -1,16 +1,17 @@
 import React from 'react'
-import Navbar from '../../Components/Navbar/Navbar'
-import Footer from '../../Components/Footer/Footer'
 import './About.css'
 
 // Imported Images
 import Image1 from './images/Image1.jpg'
 import Image2 from './images/Image2.jpg'
 
+// Imprted layout
+import MainLayout from '../Layout/Layout'
+
+
 const About = () => {
   return (
-    <div>
-        <Navbar />
+    <MainLayout>
       <div className='about container section'>
       <div className="secContainer">
         <span className="secTitle">
@@ -46,8 +47,7 @@ const About = () => {
         </div>
         </div>
         </div>
-        <Footer />
-    </div>
+    </MainLayout>
   )
 }
 

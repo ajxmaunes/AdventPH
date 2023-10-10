@@ -88,6 +88,8 @@
             border: none;
             outline: none;
             margin-bottom: 2rem;
+            resize: vertical;
+            min-height: 10rem;
           }
 
           button {

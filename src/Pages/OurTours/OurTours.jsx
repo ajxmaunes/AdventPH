@@ -1,6 +1,4 @@
 import React, { useEffect } from 'react'
-import Navbar from '../../Components/Navbar/Navbar'
-import Footer from '../../Components/Footer/Footer'
 import './OurTours.css'
 
 import Aos from 'aos'
@@ -14,6 +12,9 @@ import tourImage3 from './images/Image7.jpg'
 // Imported Icons
 import {AiFillStar} from 'react-icons/ai'
 
+// Imported layout
+import MainLayout from '../Layout/Layout'
+
 const OurTours = () => {
 
     useEffect(() => {
@@ -22,8 +23,7 @@ const OurTours = () => {
     
 
   return (
-    <div>
-        <Navbar />
+    <MainLayout>
         <div className='ourTours container section'>
         <div className="secContainer">
             <span className="secTitle">
@@ -134,8 +134,7 @@ const OurTours = () => {
             </div>
         </div>
         </div>
-    <Footer />
-    </div>
+    </MainLayout>
   )
 }
 

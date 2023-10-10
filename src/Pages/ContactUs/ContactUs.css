@@ -79,6 +79,8 @@
   border: none;
   outline: none;
   margin-bottom: 2rem;
+  resize: vertical;
+  min-height: 10rem;
 }
 .contact-div__form form button {
   background-color: #1450A3;
