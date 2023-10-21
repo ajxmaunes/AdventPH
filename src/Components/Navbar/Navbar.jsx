@@ -33,19 +33,19 @@ const Navbar = () => {
 
         <div className={active}>
           <ul className="menuLists">
-            <li className="navItem">
+            <li onClick={() => window.scrollTo(0, 0)} className="navItem">
               <Link to='/' onClick={removeNavbar} className='menuLink'>Home</Link>
             </li>
-            <li className="navItem">
+            <li onClick={() => window.scrollTo(0, 0)} className="navItem">
               <Link to='/About' relative="path" onClick={removeNavbar} className='menuLink'>About</Link>
             </li>
-            <li className="navItem">
+            <li onClick={() => window.scrollTo(0, 0)} className="navItem">
               <Link to='/OurTours' onClick={removeNavbar} className='menuLink'>Our Tours</Link>
             </li>
-            <li className="navItem">
+            <li onClick={() => window.scrollTo(0, 0)} className="navItem">
               <Link to='/Gallery' onClick={removeNavbar} className='menuLink'>Gallery</Link>
             </li>
-            <li className="navItem">
+            <li onClick={() => window.scrollTo(0, 0)} className="navItem">
               <Link to='/ContactUs' onClick={removeNavbar} className='menuLink'>Contact Us</Link>
             </li>
             {/* <li className="navItem">

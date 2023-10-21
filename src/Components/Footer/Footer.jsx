@@ -72,11 +72,11 @@ const Footer = () => {
             </div>
             <div className="footerLinks">
               <ul>
-                <li><Link to='/' className='link'>Home</Link></li>
-                <li><Link to='/About' className='link'>About Us</Link></li>
-                <li><Link to='/OurTours' className='link'>Our Tours</Link></li>
-                <li><Link to='/Gallery' className='link'>Gallery</Link></li>
-                <li><Link to='/ContactUs' className='link'>Contact Us</Link></li>  
+                <li onClick={() => window.scrollTo(0, 0)}><Link to='/' className='link'>Home</Link></li>
+                <li onClick={() => window.scrollTo(0, 0)}><Link to='/About' className='link'>About Us</Link></li>
+                <li onClick={() => window.scrollTo(0, 0)}><Link to='/OurTours' className='link'>Our Tours</Link></li>
+                <li onClick={() => window.scrollTo(0, 0)}><Link to='/Gallery' className='link'>Gallery</Link></li>
+                <li onClick={() => window.scrollTo(0, 0)}><Link to='/ContactUs' className='link'>Contact Us</Link></li>  
               </ul>
             </div>
           </div>
