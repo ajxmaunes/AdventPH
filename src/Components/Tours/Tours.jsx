@@ -32,7 +32,7 @@ const Tours = () => {
             <div className="imgDiv">
               <img src={tourImage1} alt="" />
             </div>
-            <div data-aos='fade-up' data-aos-duration='2500' className="tourInfo">
+            <div className="tourInfo">
             <span className="tourTitle">
               Taal Lake, Batangas
             </span>
@@ -65,7 +65,7 @@ const Tours = () => {
             <div className="imgDiv">
               <img src={tourImage3} alt="" />
             </div>
-            <div data-aos='fade-up' data-aos-duration='2500' className="tourInfo">
+            <div className="tourInfo">
             <span className="tourTitle">
               Vigan City
             </span>
@@ -98,7 +98,7 @@ const Tours = () => {
               <div className="imgDiv">
                 <img src={tourImage2} alt="" />
               </div>
-              <div data-aos='fade-up' data-aos-duration='3500' className="tourInfo">
+              <div className="tourInfo">
               <span className="tourTitle">
                 Batanes Island
               </span>
